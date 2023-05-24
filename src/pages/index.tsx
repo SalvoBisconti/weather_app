@@ -1,5 +1,6 @@
 import Head from "next/head";
 // import styles from "@/styles/pages/Home.module.scss";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
@@ -10,7 +11,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=""></main>
+      <main className="bg-zinc-100 h-screen">
+        <Navbar />
+      </main>
     </>
   );
 }
